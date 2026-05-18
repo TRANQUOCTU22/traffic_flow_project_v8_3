@@ -86,14 +86,3 @@ Cuckoo Search:
 3. Nạp mẫu lớn, chạy Cuckoo Search để thấy tốc độ tốt hơn, nhưng nghiệm có thể chỉ gần tối ưu.
 4. Xuất báo cáo DOCX/TXT/CSV.
 
-## Cập nhật v5
-- Thêm ô **Số lần chạy lấy trung bình** cho Backtracking và Cuckoo Search.
-- Runtime trong bảng so sánh là **runtime trung bình** của N lần chạy.
-- Phần vẽ mạng được cải thiện: node dàn theo lớp, mũi tên rõ hơn, nhãn capacity/cost nằm trên cạnh, cạnh có luồng được highlight.
-- Khi chưa chạy thuật toán, tab Báo cáo chỉ hiển thị dữ liệu đầu vào và không tự sinh kết luận.
-
-
-## Ghi chú bản v6
-- Tên thuật toán trong giao diện đã rút gọn: FC, BC, BnB, Heuristic, Constraint Propagation, Full Optimization.
-- Hàm liệt kê path đã được sửa theo cơ chế chọn cân bằng các nhánh từ source, tránh trường hợp mẫu lớn chỉ lấy nhiều path trên một nhánh và không vận chuyển đủ demand.
-- Max paths mặc định đặt 12 để mẫu lớn có thể đạt demand nhưng vẫn chạy được khi demo. Có thể tăng nếu máy mạnh.
