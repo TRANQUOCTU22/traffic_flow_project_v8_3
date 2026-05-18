@@ -24,24 +24,32 @@ python main.py
 
 ```text
 traffic_flow_project/
-├── main.py
-├── requirements.txt
-├── README.md
-├── models/graph_model.py
-├── algorithms/
-│   ├── backtracking_basic.py
-│   ├── backtracking_forward.py
-│   ├── backtracking_backward.py
-│   ├── backtracking_branch_bound.py
-│   ├── backtracking_heuristic.py
-│   ├── backtracking_constraint.py
-│   ├── backtracking_full.py
-│   └── cuckoo_search_flow.py
-├── ui/
-│   ├── main_window.py
-│   └── tabs/
-├── utils/
-└── data/
+│
+├── algorithms/                      # Cài đặt các thuật toán tối ưu
+│   ├── backtracking_basic.py        # Backtracking cơ bản
+│   ├── backtracking_forward.py      # Backtracking + Forward Checking
+│   ├── backtracking_backward.py     # Backtracking + Backward Checking
+│   ├── backtracking_branch_bound.py # Backtracking + Branch and Bound
+│   ├── backtracking_heuristic.py    # Backtracking + Heuristic Ordering
+│   ├── backtracking_constraint.py   # Backtracking + Constraint Propagation
+│   ├── backtracking_full.py         # Backtracking tối ưu tổng hợp
+│   ├── cuckoo_search_flow.py        # Thuật toán Cuckoo Search
+│   └── max_flow_check.py            # Kiểm tra luồng tối đa của mạng
+├── data/                            # Dữ liệu mẫu
+│   ├── sample_network_small.json
+│   ├── sample_network_medium.json
+│   └── sample_network_large.json
+├── models/                          # Mô hình dữ liệu
+│   └── graph_model.py               # Lưu đồ thị, path, cạnh, nghiệm
+├── ui/                              # Giao diện chương trình
+│   ├── main_window.py               # Cửa sổ chính
+│   └── tabs/                        # Các tab nhập dữ liệu, chạy thuật toán, so sánh, báo cáo
+├── utils/                           # Tiện ích hỗ trợ
+│   ├── exporter.py                  # Xuất báo cáo TXT, CSV, DOCX
+│   └── visualization.py             # Vẽ mạng giao thông
+├── main.py                          # File chạy chương trình
+├── README.md                        # Hướng dẫn sử dụng
+└── requirements.txt                 # Thư viện cần cài
 ```
 
 ## Mô hình dữ liệu
