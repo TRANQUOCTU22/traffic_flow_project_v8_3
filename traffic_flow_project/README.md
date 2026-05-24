@@ -62,7 +62,7 @@ Nghiệm được biểu diễn theo **path-flow**: liệt kê các đường đ
 
 Nhóm Backtracking gồm 7 phiên bản:
 
-1. Basic Backtracking: duyệt toàn bộ cách gán flow.
+1.Thuật toán Basic Backtracking: duyệt toàn bộ cách gán flow.
 2. FC: kiểm tra ràng buộc ngay khi gán.
 3. BC: sinh nghiệm rồi mới kiểm tra.
 4. BnB: cắt nhánh bằng upper bound.
