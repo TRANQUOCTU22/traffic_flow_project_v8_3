@@ -64,11 +64,11 @@ Nhóm Backtracking gồm 7 phiên bản:
 
 1.Thuật toán Basic Backtracking: duyệt toàn bộ cách gán flow.
 2.Thuật toán FC: kiểm tra ràng buộc ngay khi gán.
-3. BC: sinh nghiệm rồi mới kiểm tra.
-4. BnB: cắt nhánh bằng upper bound.
-5. Heuristic: ưu tiên path rẻ, capacity cao, ngắn.
-6. Constraint Propagation: cập nhật miền flow khả thi theo capacity còn lại.
-7. Full Optimization: kết hợp forward checking, pruning, heuristic và constraint propagation.
+3.Thuật toán BC: sinh nghiệm rồi mới kiểm tra.
+4.Thuật toán BnB: cắt nhánh bằng upper bound.
+5.Thuật toán Heuristic: ưu tiên path rẻ, capacity cao, ngắn.
+6.Thuật toán Constraint Propagation: cập nhật miền flow khả thi theo capacity còn lại.
+7.Thuật toán Full Optimization: kết hợp forward checking, pruning, heuristic và constraint propagation.
 
 Thuật toán Cuckoo Search:
 
