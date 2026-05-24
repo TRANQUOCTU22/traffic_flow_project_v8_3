@@ -70,7 +70,7 @@ Nhóm Backtracking gồm 7 phiên bản:
 6. Constraint Propagation: cập nhật miền flow khả thi theo capacity còn lại.
 7. Full Optimization: kết hợp forward checking, pruning, heuristic và constraint propagation.
 
-Cuckoo Search:
+Thuật toán Cuckoo Search:
 
 - Một nest là vector flow theo path.
 - Có repair nghiệm để không vượt demand/capacity.
